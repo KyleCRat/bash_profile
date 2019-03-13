@@ -15,10 +15,6 @@ function kill_ruby_port {
   kill -9 $port
 }
 
-# Bastion Connections
-alias aws_prod='ssh -l "kyle.ratliff@clarivate.com" aws_prod'
-alias aws_dev='ssh -l "kyle.ratliff@clarivate.com" bastion-ad.us-west-2.dev-innovation.com'
-
 alias tfd='tail -f log/development.log'
 alias tfp='tail -f log/production.log'
 alias atr='autotest -rails'
