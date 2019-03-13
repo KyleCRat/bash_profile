@@ -64,12 +64,6 @@ alias .6='cd ../../../../../../'            # Go back 6 directory levels
 
 alias f='open -a Finder ./'                 # f: Opens current directory in MacOS Finder
 
-# Ross
-alias postgres="open -a Postgres"
-alias sidekiq="bundle exec sidekiq"
-alias redis="redis-server"
-
-
 # Aliases for git
 alias gl='git pull'
 alias gp='git push'
